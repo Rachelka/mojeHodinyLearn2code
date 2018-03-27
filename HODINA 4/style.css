@@ -1,0 +1,99 @@
+html,
+body {
+    height: 100%;
+    /* background-color: navy */
+}
+
+div {
+    color: rgb(187, 64, 140);
+    font-size: 50px;
+    /* width: 50%; */
+    /* height: 50px; */
+    background-color: rgb(224, 182, 196);
+    border: 3px solid rebeccapurple;
+    border-width: 20px 20px 20px 15px;
+}
+
+div {
+    background-color: rgb(74, 142, 173);
+    padding: 30px 20px 10px 0px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+    margin: 30px;
+    display: inline-block;
+}
+
+span {
+    border: palegoldenrod;
+    background: olive;
+    font-size: 40px;
+}
+
+ul.list {
+    border: solid rgb(77, 122, 161);
+    background-color: rgb(51, 184, 144);
+}
+
+.list {
+    border: solid blueviolet;
+    background-color: aquamarine;
+}
+
+.list li {
+    border: solid rgb(233, 3, 91);
+    padding: 50px 50px rgb(157, 201, 132);
+}
+
+.list li {
+    border: solid rgb(91, 185, 91);
+    padding: 20px 20px rgb(235, 235, 91);
+}
+
+div>strong {
+    color: orchid;
+}
+
+div strong {
+    color: palegreen;
+}
+
+strong {
+    color: red;
+}
+
+ul li {
+    color: black;
+}
+
+a[title] {
+    color: blue;
+}
+
+a {
+    color: red;
+}
+
+a .link {
+    color: green;
+}
+
+.pseudo-selector li:nth-child(3) {
+    color: darkturquoise;
+}
+
+.pseudo-selector li:last-child {
+    color: firebrick;
+}
+
+button:disabled {
+    background-color: rgb(10, 10, 10);
+}
+
+a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
